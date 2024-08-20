@@ -1,7 +1,7 @@
-var "project_id" {
+variable "project_id" {
   type = string
 }
-var "gcp_region" {
+variable "gcp_region" {
   type = string
   default = "us-central1"
 }
